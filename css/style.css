@@ -1,0 +1,80 @@
+body {
+  color: #f2f2f2;
+  min-height: 960px;
+  -webkit-box-shadow: inset 0 0 0 5px #f2f2f2, inset 0 0 0 10px #90c0aa, inset 0 0 0 15px #f2f2f2;
+  -mox-box-shadow: inset 0 0 0 5px #f2f2f2,inset 0 0 0 10px #90c0aa,inset 0 0 0 15px #f2f2f2;
+  box-shadow: inset 0 0 0 5px #f2f2f2, inset 0 0 0 10px #90c0aa, inset 0 0 0 15px #f2f2f2;
+  margin: 0; }
+  body h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    text-align: center;
+    color: red;
+    padding: 20px; }
+  body .container {
+    position: relative;
+    margin: 0 auto;
+    padding: 50px; }
+    body .container .slider {
+      position: relative;
+      zoom: 1;
+      padding: 10px;
+      background: #ffffff;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); }
+      body .container .slider #slides_sml {
+        position: relative;
+        height: 300px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        list-style-type: none; }
+      body .container .slider #slides_mid {
+        position: relative;
+        height: 425px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        list-style-type: none; }
+      body .container .slider #slides_full {
+        position: relative;
+        height: 300px;
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+        text-align: center; }
+      body .container .slider .slide {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 1;
+        -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
+        -o-transition: opacity 1s;
+        transition: opacity 1s; }
+      body .container .slider .showing {
+        opacity: 1;
+        z-index: 2;
+        display: block;
+        transition: opacity 0.6s ease; }
+      body .container .slider .slide {
+        padding: 40px;
+        box-sizing: border-box;
+        background: #333;
+        color: #fff;
+        transition: opacity 0.6s ease; }
+    body .container .slides img {
+      width: 100%;
+      display: block;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px; }
+
+/*# sourceMappingURL=style.css.map */
